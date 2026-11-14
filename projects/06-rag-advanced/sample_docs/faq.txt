@@ -1,0 +1,62 @@
+Q: What is the Lumen Desk Lamp L2?
+A: The Lumen Desk Lamp L2 is a dimmable LED desk lamp made by Lumenkite Ltd. It has three colour settings.
+
+Q: What is order code ACR-4471?
+A: Order code ACR-4471 is the Starter Bundle. It includes the lamp, a spare shade, and a 1.5 m USB-C cable.
+
+Q: Which SKU is the black lamp?
+A: The black lamp uses SKU LL2-BLK-01. The white lamp uses SKU LL2-WHT-01.
+
+Q: How long is the warranty?
+A: Every lamp has a two-year limited warranty from the date of delivery. Cracked shades are not covered.
+
+Q: How do I make a warranty claim?
+A: Use the claim form at lumenkite.example/claims. Include your order number. A support agent replies within two working days.
+
+Q: How do I reset the lamp to factory settings?
+A: Hold the power button for ten seconds until the light blinks twice. Then release the button.
+
+Q: The lamp will not turn on. What can I try?
+A: Check that the USB-C cable is connected to a working power adapter. If the lamp still does not turn on, try a different outlet.
+
+Q: Why does the light flicker when I dim it?
+A: Some dimmer switches cause flicker at low brightness. Use the touch dimmer on the base instead, or set a higher level.
+
+Q: What colour settings are available?
+A: Warm white at 2700 K, neutral white at 4000 K, and daylight at 6500 K. Press the colour button to cycle through them.
+
+Q: Can I run the lamp from a battery pack?
+A: Yes, if the battery pack supplies at least 5 V and 2 A over USB-C. The lamp uses about 10 W at full brightness.
+
+Q: How do I clean the shade?
+A: Wipe the shade with a dry microfibre cloth. Do not use alcohol or spray cleaners, because they can dull the finish.
+
+Q: Is the lamp safe around children?
+A: The lamp has no small removable parts. Keep the cable out of reach, because it can be a trip or pull hazard.
+
+Q: How long do I have to return an unused lamp?
+A: You can return an unused lamp within 30 days of delivery. Ask support for a return label with your order number.
+
+Q: How long does shipping take?
+A: Standard shipping takes three to five working days. Express shipping takes one working day when ordered before 2 p.m.
+
+Q: Can I track my order?
+A: Yes. Use the tracking link in your dispatch email. Tracking can take up to 24 hours to appear.
+
+Q: Do you sell a replacement LED module?
+A: Yes. The replacement LED module is sold as part LL2-MOD-02. It fits all L2 lamps made after March 2025.
+
+Q: What is the maximum brightness?
+A: The maximum brightness is 800 lumens. Brightness can be set in ten steps with the touch dimmer.
+
+Q: Does the lamp remember its settings?
+A: Yes. The lamp remembers its brightness and colour setting for ten minutes after it is switched off.
+
+Q: How do I contact support?
+A: Support is open Monday to Friday, 9 a.m. to 5 p.m. Email help@lumenkite.example or use live chat on the website.
+
+Q: What is the Lumen Companion app?
+A: The app is optional. It adds timers and schedules over Bluetooth. The lamp works without it.
+
+Q: Is there a student discount?
+A: Yes. Students can enter code STUDY-15 at checkout for 15 percent off one order. The code cannot be combined with other offers.

@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What does order code ACR-4471 include?",
+    "expected_phrase": "Order code ACR-4471 is the Starter Bundle"
+  },
+  {
+    "question": "Which SKU is the black lamp?",
+    "expected_phrase": "black lamp uses SKU LL2-BLK-01"
+  },
+  {
+    "question": "What is part LL2-MOD-02?",
+    "expected_phrase": "replacement LED module is sold as part LL2-MOD-02"
+  },
+  {
+    "question": "How long is the warranty?",
+    "expected_phrase": "two-year limited warranty"
+  },
+  {
+    "question": "My lamp is dead and nothing happens, what can I try?",
+    "expected_phrase": "try a different outlet"
+  },
+  {
+    "question": "How do I put the light back to factory settings?",
+    "expected_phrase": "Hold the power button for ten seconds"
+  },
+  {
+    "question": "Can I power the lamp from a battery pack?",
+    "expected_phrase": "Yes, if the battery pack supplies"
+  },
+  {
+    "question": "Is there a discount for students?",
+    "expected_phrase": "code STUDY-15"
+  },
+  {
+    "question": "How many days do I have to send back an unused lamp?",
+    "expected_phrase": "within 30 days of delivery"
+  },
+  {
+    "question": "What should I use to wipe the shade?",
+    "expected_phrase": "dry microfibre cloth"
+  }
+]

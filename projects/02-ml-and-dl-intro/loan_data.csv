@@ -1,0 +1,301 @@
+Applicant_Income,Coapplicant_Income,Loan_Amount,Credit_History,Property_Area,Education,Loan_Status
+6065,216,338,1,Semiurban,Graduate,Y
+3233,0,180,1,Semiurban,Graduate,N
+6848,3178,200,1,Rural,Graduate,Y
+3533,0,97,1,Rural,Graduate,Y
+3558,427,94,1,Semiurban,Graduate,Y
+5624,1591,65,1,Urban,Not Graduate,Y
+6527,1085,123,1,Rural,Graduate,Y
+10291,1114,167,1,Urban,Graduate,Y
+5255,0,231,1,Semiurban,Graduate,Y
+3767,463,120,1,Rural,Not Graduate,N
+12155,428,86,1,Urban,Graduate,Y
+6873,1217,171,1,Rural,Graduate,Y
+7140,0,46,1,Urban,Graduate,Y
+5934,182,63,1,Urban,Graduate,Y
+5870,935,130,1,Rural,Graduate,Y
+6124,0,138,1,Rural,Graduate,Y
+4324,0,82,1,Urban,Graduate,Y
+7018,886,153,1,Semiurban,Graduate,Y
+5114,0,131,1,Urban,Graduate,Y
+6654,0,111,1,Rural,Graduate,Y
+6808,417,126,1,Rural,Graduate,Y
+6575,219,72,0,Urban,Graduate,N
+4018,0,98,0,Rural,Graduate,N
+8984,0,190,1,Urban,Graduate,N
+6779,555,263,1,Semiurban,Not Graduate,N
+3146,1460,159,1,Urban,Graduate,N
+6459,698,104,1,Urban,Not Graduate,Y
+4378,0,171,1,Urban,Not Graduate,Y
+3553,725,136,1,Rural,Graduate,N
+7754,0,105,1,Urban,Graduate,Y
+4872,2101,112,0,Semiurban,Not Graduate,Y
+8831,755,79,1,Semiurban,Not Graduate,Y
+2911,0,215,0,Rural,Graduate,N
+4487,0,136,1,Semiurban,Graduate,Y
+5721,0,79,1,Rural,Graduate,Y
+4774,0,105,1,Semiurban,Not Graduate,N
+9264,2131,84,1,Urban,Graduate,Y
+4780,767,55,1,Urban,Graduate,Y
+1793,0,104,0,Urban,Graduate,N
+23740,0,144,1,Rural,Graduate,Y
+9022,0,151,1,Semiurban,Graduate,Y
+3440,598,79,1,Rural,Graduate,Y
+4253,2544,121,0,Semiurban,Graduate,N
+9921,0,119,1,Urban,Graduate,Y
+4191,0,288,0,Rural,Graduate,N
+6704,479,81,1,Semiurban,Graduate,Y
+3728,0,91,1,Rural,Graduate,N
+4321,0,37,1,Urban,Graduate,Y
+5785,0,137,1,Rural,Graduate,N
+3726,0,220,0,Semiurban,Graduate,N
+6059,0,200,1,Rural,Not Graduate,Y
+4974,0,53,0,Urban,Graduate,Y
+9504,385,143,0,Semiurban,Graduate,N
+6035,2781,96,1,Rural,Graduate,Y
+7563,2201,263,1,Urban,Graduate,Y
+3880,0,78,1,Semiurban,Not Graduate,Y
+2704,1392,114,1,Semiurban,Graduate,Y
+4473,0,67,0,Rural,Graduate,Y
+5196,0,112,1,Urban,Graduate,Y
+3220,2594,82,1,Urban,Graduate,N
+5350,0,74,1,Rural,Not Graduate,Y
+5606,496,146,0,Urban,Graduate,N
+3549,0,73,1,Semiurban,Graduate,Y
+9301,3587,98,1,Semiurban,Not Graduate,Y
+3742,0,117,1,Rural,Graduate,Y
+3706,4310,165,1,Urban,Not Graduate,N
+17669,0,129,1,Urban,Graduate,Y
+8041,0,131,1,Semiurban,Graduate,Y
+3775,1074,82,1,Urban,Graduate,Y
+9988,0,115,1,Semiurban,Graduate,Y
+5181,492,182,1,Rural,Graduate,Y
+3019,0,186,1,Urban,Graduate,N
+5483,0,116,0,Rural,Graduate,Y
+8221,0,285,1,Rural,Graduate,Y
+5684,0,116,1,Urban,Not Graduate,Y
+2900,643,173,0,Rural,Not Graduate,N
+2648,0,100,1,Rural,Graduate,N
+7300,0,101,1,Rural,Not Graduate,Y
+3284,0,148,1,Rural,Graduate,Y
+3760,822,92,1,Semiurban,Graduate,Y
+11531,1011,127,1,Semiurban,Not Graduate,Y
+5178,0,96,1,Rural,Graduate,N
+6427,0,181,1,Rural,Graduate,N
+1897,579,233,1,Urban,Graduate,N
+6396,1735,73,1,Urban,Graduate,Y
+8589,0,91,0,Semiurban,Not Graduate,Y
+5289,0,61,1,Semiurban,Not Graduate,Y
+3310,1216,157,1,Rural,Not Graduate,Y
+10681,0,89,0,Rural,Graduate,Y
+4033,882,88,1,Semiurban,Graduate,Y
+23503,1596,104,1,Rural,Graduate,Y
+6118,1902,63,0,Urban,Not Graduate,Y
+2798,1837,95,0,Urban,Graduate,N
+7036,0,74,1,Rural,Graduate,Y
+5879,2648,64,0,Urban,Graduate,N
+6474,0,166,1,Rural,Not Graduate,Y
+2377,425,115,0,Rural,Graduate,N
+4186,7733,142,1,Urban,Graduate,Y
+4067,743,107,1,Semiurban,Graduate,Y
+9344,0,117,1,Semiurban,Not Graduate,N
+2678,680,63,1,Semiurban,Graduate,Y
+8279,0,143,0,Rural,Graduate,N
+7686,1724,197,1,Urban,Graduate,N
+2775,1007,90,0,Rural,Graduate,Y
+2718,0,69,1,Semiurban,Graduate,Y
+5511,2156,112,1,Rural,Graduate,Y
+7237,1088,63,1,Rural,Not Graduate,Y
+6229,0,103,1,Semiurban,Graduate,N
+4918,983,102,1,Semiurban,Graduate,Y
+6858,0,112,1,Semiurban,Graduate,Y
+7468,338,184,1,Rural,Graduate,N
+7816,0,124,1,Rural,Graduate,Y
+5089,0,121,1,Semiurban,Graduate,Y
+6503,1640,180,1,Rural,Graduate,Y
+5568,1386,114,1,Semiurban,Graduate,Y
+6283,0,92,1,Semiurban,Graduate,Y
+19742,0,83,1,Semiurban,Graduate,Y
+6271,0,57,1,Semiurban,Not Graduate,Y
+14359,0,115,1,Semiurban,Graduate,Y
+9219,0,78,1,Rural,Graduate,Y
+3167,873,141,1,Semiurban,Graduate,Y
+13375,252,119,1,Semiurban,Graduate,Y
+3920,0,107,0,Rural,Not Graduate,N
+2696,180,77,1,Urban,Graduate,Y
+4635,587,96,1,Semiurban,Graduate,Y
+7242,458,182,1,Rural,Graduate,N
+4312,1936,109,1,Rural,Graduate,Y
+4713,747,58,1,Rural,Graduate,Y
+5098,0,148,1,Rural,Graduate,Y
+6827,545,225,0,Semiurban,Graduate,N
+5186,4362,55,1,Semiurban,Not Graduate,Y
+6408,0,102,1,Semiurban,Graduate,Y
+6866,0,92,1,Semiurban,Graduate,Y
+5719,1569,124,1,Semiurban,Graduate,Y
+12394,3079,96,1,Urban,Not Graduate,Y
+7940,784,123,1,Semiurban,Graduate,Y
+6132,1491,109,1,Semiurban,Graduate,Y
+3078,0,50,0,Rural,Not Graduate,N
+8485,0,89,1,Rural,Not Graduate,Y
+8617,641,116,1,Rural,Graduate,Y
+3111,0,107,1,Rural,Graduate,N
+6632,0,45,1,Rural,Graduate,Y
+3053,0,176,1,Urban,Graduate,N
+3204,0,76,1,Rural,Graduate,Y
+5855,0,166,0,Urban,Not Graduate,Y
+6437,0,93,1,Rural,Graduate,Y
+4436,0,97,1,Urban,Graduate,Y
+3038,3898,73,1,Semiurban,Graduate,Y
+5191,620,184,1,Semiurban,Graduate,N
+3866,1025,134,1,Urban,Graduate,N
+11427,767,68,1,Rural,Graduate,Y
+10578,0,117,1,Rural,Graduate,Y
+4251,1538,81,1,Rural,Graduate,Y
+2602,0,134,1,Semiurban,Graduate,Y
+4948,0,218,1,Semiurban,Not Graduate,N
+8998,0,117,1,Rural,Graduate,Y
+7537,0,130,1,Semiurban,Graduate,Y
+3993,0,81,1,Rural,Graduate,N
+5081,0,273,1,Rural,Graduate,N
+8863,4531,141,1,Rural,Not Graduate,Y
+4450,0,147,1,Rural,Graduate,N
+8747,2196,116,1,Rural,Graduate,Y
+7183,0,65,1,Urban,Graduate,Y
+2538,0,104,1,Semiurban,Graduate,Y
+6143,0,193,1,Rural,Not Graduate,N
+5760,0,116,0,Rural,Graduate,Y
+3800,691,238,1,Urban,Graduate,N
+5502,0,85,1,Urban,Graduate,Y
+5135,1477,85,1,Rural,Graduate,Y
+4690,0,134,1,Semiurban,Graduate,Y
+10685,3659,268,0,Urban,Graduate,N
+8669,0,34,1,Rural,Not Graduate,Y
+5618,0,97,1,Semiurban,Graduate,Y
+8400,0,106,1,Semiurban,Graduate,Y
+14200,0,68,1,Urban,Not Graduate,Y
+4005,0,59,0,Semiurban,Graduate,N
+7581,0,101,0,Urban,Graduate,N
+4906,860,106,1,Rural,Graduate,Y
+7488,0,156,1,Rural,Graduate,Y
+6405,0,100,1,Urban,Graduate,N
+6242,0,146,0,Rural,Graduate,N
+3671,0,133,1,Rural,Graduate,N
+7509,460,153,0,Semiurban,Not Graduate,Y
+5269,833,99,1,Urban,Not Graduate,N
+3918,0,192,1,Rural,Graduate,N
+4808,1050,120,0,Rural,Graduate,Y
+5043,172,97,1,Semiurban,Not Graduate,Y
+4666,523,223,1,Urban,Graduate,Y
+5833,0,174,1,Semiurban,Not Graduate,Y
+5384,0,48,1,Rural,Not Graduate,N
+6092,1361,80,1,Urban,Graduate,Y
+6464,4386,70,1,Semiurban,Not Graduate,Y
+10460,1694,64,1,Semiurban,Graduate,Y
+3270,3014,112,1,Rural,Not Graduate,Y
+5714,0,139,1,Semiurban,Not Graduate,Y
+6087,0,143,1,Rural,Graduate,N
+7682,0,63,0,Semiurban,Graduate,Y
+3765,0,105,1,Semiurban,Graduate,Y
+6220,0,224,1,Urban,Graduate,N
+3507,766,98,1,Urban,Graduate,Y
+2486,853,101,0,Urban,Graduate,Y
+4880,1084,101,1,Urban,Graduate,N
+7617,0,106,1,Semiurban,Graduate,Y
+7708,559,68,1,Rural,Not Graduate,Y
+2460,2524,41,0,Urban,Not Graduate,N
+4721,0,65,1,Semiurban,Graduate,N
+5288,0,126,1,Rural,Graduate,N
+3636,0,60,1,Rural,Graduate,Y
+5144,1134,125,1,Semiurban,Graduate,Y
+6458,0,108,0,Urban,Graduate,N
+3633,457,106,1,Semiurban,Graduate,Y
+4740,0,112,1,Semiurban,Not Graduate,Y
+4964,0,104,1,Urban,Graduate,Y
+3048,0,143,1,Semiurban,Graduate,Y
+5763,0,132,1,Semiurban,Graduate,Y
+6811,0,75,1,Rural,Graduate,Y
+6470,1048,84,1,Urban,Graduate,Y
+3172,4665,108,1,Semiurban,Graduate,Y
+4353,0,72,1,Semiurban,Graduate,Y
+8056,0,140,0,Semiurban,Graduate,N
+2313,0,207,1,Rural,Graduate,Y
+4627,0,73,1,Semiurban,Not Graduate,Y
+5051,2455,81,1,Urban,Graduate,Y
+5328,861,236,1,Rural,Graduate,N
+9266,2879,271,1,Semiurban,Graduate,Y
+4007,0,84,1,Semiurban,Not Graduate,N
+9862,95,99,1,Rural,Graduate,Y
+3295,2465,79,1,Urban,Graduate,Y
+7235,416,87,1,Urban,Graduate,Y
+2532,0,77,1,Rural,Graduate,Y
+15191,1372,174,1,Semiurban,Graduate,Y
+7184,344,77,1,Urban,Graduate,Y
+5427,0,195,1,Rural,Graduate,Y
+5816,879,205,1,Semiurban,Graduate,Y
+6148,1120,173,1,Rural,Graduate,Y
+6375,2750,55,1,Rural,Graduate,Y
+6542,0,118,1,Urban,Graduate,Y
+4345,0,130,1,Urban,Graduate,Y
+4735,1655,75,1,Urban,Graduate,Y
+4883,0,190,0,Rural,Graduate,N
+2443,0,49,1,Urban,Not Graduate,N
+5231,0,84,1,Urban,Graduate,Y
+6933,5389,128,1,Semiurban,Graduate,Y
+7649,381,79,1,Urban,Graduate,Y
+5396,0,129,0,Rural,Graduate,N
+4782,0,111,1,Rural,Graduate,Y
+4149,0,185,1,Semiurban,Graduate,N
+5131,422,103,0,Urban,Graduate,N
+12471,2372,75,1,Rural,Graduate,Y
+7325,0,190,1,Urban,Graduate,N
+4159,0,118,1,Urban,Not Graduate,Y
+9808,754,109,1,Semiurban,Graduate,Y
+4111,1191,92,1,Rural,Graduate,N
+5621,2065,147,1,Semiurban,Graduate,Y
+4541,0,127,1,Rural,Graduate,N
+7752,0,146,1,Rural,Graduate,N
+11988,0,184,1,Semiurban,Graduate,Y
+5884,559,151,1,Semiurban,Graduate,Y
+6529,1169,143,1,Semiurban,Graduate,Y
+7224,0,79,1,Urban,Graduate,Y
+7824,0,168,1,Semiurban,Not Graduate,N
+3307,0,255,1,Semiurban,Graduate,N
+3159,0,63,1,Urban,Not Graduate,Y
+4419,868,153,1,Urban,Not Graduate,Y
+3416,0,95,1,Semiurban,Graduate,Y
+4102,0,193,1,Semiurban,Graduate,Y
+4520,1590,77,1,Urban,Graduate,Y
+8231,0,70,1,Semiurban,Not Graduate,Y
+5131,615,124,1,Rural,Graduate,Y
+4341,3024,117,1,Semiurban,Not Graduate,Y
+5520,0,151,1,Semiurban,Graduate,N
+3292,0,186,1,Rural,Not Graduate,Y
+4706,579,131,1,Semiurban,Graduate,Y
+14872,0,68,1,Semiurban,Graduate,Y
+2690,0,94,1,Semiurban,Not Graduate,Y
+7719,1050,87,1,Semiurban,Graduate,Y
+3230,1043,100,1,Urban,Graduate,Y
+7681,151,111,1,Urban,Graduate,Y
+1893,1237,150,0,Urban,Graduate,N
+2956,0,220,1,Semiurban,Graduate,N
+7097,369,134,0,Semiurban,Graduate,Y
+3949,0,116,0,Semiurban,Graduate,N
+3191,773,93,1,Rural,Graduate,Y
+6819,0,170,0,Semiurban,Not Graduate,N
+8419,0,152,1,Rural,Graduate,Y
+5633,0,150,1,Urban,Graduate,N
+9150,0,243,1,Urban,Graduate,Y
+7574,129,94,1,Rural,Graduate,Y
+5446,789,145,1,Semiurban,Not Graduate,N
+7641,807,105,1,Rural,Graduate,Y
+6789,0,128,0,Semiurban,Graduate,N
+5565,1747,160,1,Rural,Graduate,Y
+7756,2621,40,0,Semiurban,Not Graduate,Y
+6844,0,110,1,Urban,Graduate,Y
+9467,0,68,1,Semiurban,Graduate,Y
+8164,2297,73,1,Urban,Graduate,Y
+2491,2340,93,1,Rural,Graduate,Y
+8950,5238,113,1,Semiurban,Graduate,Y
+3889,225,36,0,Semiurban,Not Graduate,Y
+7314,2922,65,1,Rural,Not Graduate,Y

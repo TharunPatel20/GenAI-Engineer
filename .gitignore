@@ -1,0 +1,27 @@
+# Original Zoom recordings and transcripts (kept locally, not in Git)
+recording transcript/
+
+# Python virtual environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Secrets: never commit real keys
+.env
+.env.*
+!.env.example
+
+# Generated outputs from running the projects
+faiss_index/
+loan_status_chart.png
+*.log
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

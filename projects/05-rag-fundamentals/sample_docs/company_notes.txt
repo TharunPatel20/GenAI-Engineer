@@ -1,0 +1,46 @@
+ACME ROBOTICS - INTERNAL NOTES (FICTIONAL)
+This document is invented for a classroom exercise. Acme Robotics is not a real company.
+
+COMPANY OVERVIEW
+Acme Robotics is a fictional maker of warehouse and factory robots.
+It is headquartered in Springfield Valley and was founded in 2014.
+It has about 850 employees.
+
+PRODUCT LINES
+1. ShelfMover: an autonomous pallet robot for warehouses. Launched in 2018.
+2. PickArm X2: a robotic arm that sorts small parts. Launched in 2022.
+3. InspectBot: a wheeled robot that checks factory floors with cameras. Launched in 2024.
+4. Acme Cloud: a subscription dashboard that monitors every Acme robot. Launched in 2023.
+
+2025 FINANCIAL SUMMARY (USD)
+- Total revenue: 62.4 million, up 11 percent from 56.2 million in 2024.
+- Hardware revenue: 38.1 million.
+- Subscription revenue: 24.3 million, up 27 percent.
+- Operating loss: 3.2 million, improved from 5.8 million in 2024.
+- Cash on hand at year end: 19.7 million.
+- Active business customers: 214, up from 176.
+- Customer retention rate: 91 percent.
+
+2025 HIGHLIGHTS
+- Subscription revenue grew fastest. It is now 39 percent of total revenue.
+- The PickArm X2 was the best-selling product by units.
+- The main risk was late component deliveries in the first half of 2025.
+
+2026 AI INVESTMENT PLAN
+Acme Robotics plans to invest 9 million dollars in artificial intelligence during 2026.
+The plan has three parts:
+1. Vision models: 4 million dollars to train better object recognition for ShelfMover and InspectBot.
+2. Planning software: 3 million dollars to build a new route planner. The target is a 15 percent cut in travel time inside warehouses.
+3. Internal AI tools: 2 million dollars for document search and reporting tools used by staff.
+
+HIRING
+- 25 new engineers will be hired in 2026.
+- 12 of the 25 will work on machine learning.
+
+MILESTONES
+- Q2 2026: release the new route planner in beta to 10 pilot customers.
+- Q4 2026: decide whether to open a second research office.
+
+RISKS
+- Vision models may lose accuracy in dusty or low-light factories.
+- Larger robotics firms may compete on price.
