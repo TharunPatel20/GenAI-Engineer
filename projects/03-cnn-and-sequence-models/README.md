@@ -65,6 +65,8 @@ Click the **Open in Colab** badge at the top of this page, then run the cells to
 Part A (`cnn_steps.py`) uses numpy only. Part B (`train_small_cnn.py`) uses PyTorch.
 
 ### Step 1: Read the image as numbers
+
+> The 5x5 pixel grid and the 3x3 filter used in Part A are a made-up example for this project. They are not the course's image or the course's numbers.
 **What:** A grayscale image is a grid of pixels. Each pixel is a number from 0 (black) to 255 (white).
 **Why:** A CNN never sees a picture. It sees a matrix of numbers.
 **Code:**
@@ -171,10 +173,10 @@ python train_small_cnn.py
 |---|---|
 | After Step 1 to 2 | A 5x5 matrix of pixel values, then the same grid with values between 0 and 1 |
 | After Step 4 | `Check passed: output is 3x3, from 25 values down to 9` |
-| After Step 5 | A 2x2 matrix of values (the first row is about -2.10 and 2.06), and the line `Pooling output size: 3 - 2 + 1 = 2` |
+| After Step 5 | A 2x2 matrix of values (the first row is about -2.10 and 2.06 in this project's example, not the course's), and the line `Pooling output size: 3 - 2 + 1 = 2` |
 | After Step 6 | `Loaded 1797 images of size 8x8` and `Training images: 1437, test images: 360` |
 | After Step 8 | Twenty-five epoch lines. The loss goes down and the training accuracy goes up, to about 0.96 |
-| After Step 9 | `Test accuracy: 0.939 (338/360 correct)` in the reference run |
+| After Step 9 | Example result from one test run of `train_small_cnn.py`: `Test accuracy: 0.939 (338/360 correct)`. The run log was not kept, so this number is not verified in this repository. The script sets `SEED = 42`. Your number may differ. That run used Python 3.13.2 and PyTorch 2.6.0 (CPU build). |
 
 The pixel values and the filter are fixed in `cnn_steps.py`, so Part A prints the same numbers every time.
 
