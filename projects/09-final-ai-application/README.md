@@ -4,7 +4,7 @@
 
 Build one complete, small AI application that combines the earlier projects: a document search (RAG), a measured retrieval check, an agent that uses the search as a tool, a simple interface, and a written safety review. Then present it.
 
-This is a **scoped template**, not a finished app. The folder holds the plan, the requirements, and empty skeleton files. The working code for each part lives in projects 05 to 07, and this project points you back to them instead of copying it.
+This is a **scoped template**, not a finished app. The folder holds the plan, the requirements, and empty skeleton files. The working code for each part lives in projects 05 to 08, and this project points you back to them instead of copying it.
 
 - **Difficulty:** Beginner (capstone)
 - **Estimated time:** 6 to 10 hours over several sessions, plus a 10 to 15 minute presentation
@@ -15,7 +15,7 @@ By the end you will be able to:
 - Define a use case, its users, and what "good enough" means before writing code
 - Build a RAG index from your own documents and reuse the chunking and FAISS pattern from project 05
 - Measure retrieval quality with a hit rate, using the idea from project 06
-- Give an agent a search tool and a step limit, using the loop from project 07
+- Give an agent a search tool and a step limit, using the LangGraph graph pattern from project 08 (or the plain loop from project 07)
 - Wrap the app in a simple interface and add guardrails
 - Review the app for safety and fairness, and explain its limits to a non-technical audience
 
@@ -27,6 +27,7 @@ By the end you will be able to:
   - [../05-rag-fundamentals/README.md](../05-rag-fundamentals/README.md) (RAG pipeline)
   - [../06-rag-advanced/README.md](../06-rag-advanced/README.md) (hybrid retrieval and evaluation)
   - [../07-agentic-ai-intro/README.md](../07-agentic-ai-intro/README.md) (agent loop and tools)
+  - [../08-langgraph-agents-mcp/README.md](../08-langgraph-agents-mcp/README.md) (LangGraph graph with routing, guardrails, and conditional edges)
 - A Gemini API key from Google AI Studio (free tier). Go to aistudio.google.com and choose "Get API key". The same key is used in projects 04 to 07.
 
 ## Run in Google Colab
@@ -57,9 +58,12 @@ This notebook sets up the environment and checks the skeleton in `app_skeleton/`
    This file is a **minimal starter**. It holds only `python-dotenv`, which the config file needs. You add the rest yourself, using the pins from the earlier projects:
    - From project 05: LangChain, FAISS, and the Gemini packages. Copy the lines from `../05-rag-fundamentals/requirements.txt` into a new file, or install them with `pip install -r ../05-rag-fundamentals/requirements.txt`.
    - From project 06: `rank-bm25==0.2.2` for keyword search.
-   - From project 07: `google-genai==2.34.0` for the agent's model calls.
+   - From project 08 (M4): `langgraph==0.6.7`, `langchain-core==0.3.72`, and `langchain-google-genai==2.1.8` for the agent graph. `python-dotenv==1.1.1` is already in this file.
+   - From project 07: `google-genai==2.34.0`, only if you keep project 07's plain loop instead of the project 08 graph.
 
    Add these in M2 and M4, not all at once. Check each line for version clashes before you install (see Troubleshooting).
+
+   **Note on `python-dotenv`:** this project pins `python-dotenv==1.1.1`, as projects 05, 06, 08, and 09 do. Projects 04 and 07 pin `1.2.4`. Do not install the requirements of projects 04 or 07 into the same environment as this one.
 
 4. Create your `.env` file from the template, then paste your key after `GEMINI_API_KEY=`.
 
@@ -122,11 +126,10 @@ Each milestone reuses an earlier project. Finish one milestone, check its "Done 
 **Note:** project 06 has a groundedness heuristic (its Step 8). It is a rough check only. Do not treat it as proof that an answer is correct.
 **Done when:** You have a table with three rows (keyword, vector, hybrid) and a hit count out of 10 for each. Write the numbers down, because you will present them.
 
-### M4: Agent that uses the retriever (reuse project 07)
-**What:** Give the agent a `search_documents` tool that calls the retriever from M3. Keep the plan, act, observe loop, the JSON reply, and the `MAX_STEPS` limit from project 07.
+### M4: Agent that uses the retriever (reuse project 08)
+**What:** Give the agent a `search_documents` tool that calls the retriever from M3. Use the LangGraph graph pattern from project 08 (router_graph.py): a typed state, nodes, conditional edges, and a guardrail node. Add a node that calls the retriever from M2 or M3. Keep a step limit (`MAX_STEPS`) so the graph cannot loop forever.
 **Why:** An agent decides when to search and what to do with the result. The step limit stops a loop from running forever.
-**Reuses:** [../07-agentic-ai-intro/agent_loop.py](../07-agentic-ai-intro/agent_loop.py) (the loop) and [../07-agentic-ai-intro/tools.py](../07-agentic-ai-intro/tools.py) (tools as plain functions with docstrings).
-**Note on the pattern:** the earlier plan named project 08 (LangGraph routing) for this step. That folder is **not present** in this repository, so this template uses project 07's plain loop. If you have a LangGraph version, you can swap it in, but it is not required.
+**Reuses:** [../08-langgraph-agents-mcp/router_graph.py](../08-langgraph-agents-mcp/router_graph.py) (the graph, with a router, nodes, a guardrail, and conditional edges) and [../08-langgraph-agents-mcp/README.md](../08-langgraph-agents-mcp/README.md) (setup and pins).
 **Done when:** A question that needs a document search gets a grounded answer with the source passage quoted, and the agent stops within `MAX_STEPS`.
 
 ### M5: Simple interface
@@ -250,6 +253,7 @@ Replace me with your app
 | `ModuleNotFoundError: dotenv` | Virtual environment not active, or packages not installed | Activate `.venv`, then run `pip install -r requirements.txt` |
 | `ModuleNotFoundError: langchain_community` (or another package from project 05) | You have not added the project 05 packages yet (M2) | Add them, then run `pip install -r requirements.txt` again |
 | Version clash between project 05 and project 07 pins | Two projects pin different versions of a shared package | Check the lines in each `requirements.txt`, choose one version that both projects can use, and test it. Do not assume the combined pins work |
+| Version clash on `python-dotenv` (1.1.1 here, 1.2.4 in projects 04 and 07) | Projects 04 and 07 pin a different `python-dotenv` than this project | Use a separate virtual environment for each project. Do not install the requirements of projects 04 or 07 into this project's environment |
 | `No index found` | You started the app before M2 built the index | Run the build step from M2 first |
 | `FileNotFoundError` for a file in `data/` | The `data/` folder is missing or the file moved | Create `data/` and copy your documents into it |
 | `GEMINI_API_KEY is missing` | `.env` not created, or the key line is empty | Run `cp .env.example .env` and paste your key |
@@ -286,4 +290,5 @@ These are options, not required. Describe your choice in the write-up. Do not cr
 - Project 05: [../05-rag-fundamentals/README.md](../05-rag-fundamentals/README.md)
 - Project 06: [../06-rag-advanced/README.md](../06-rag-advanced/README.md)
 - Project 07: [../07-agentic-ai-intro/README.md](../07-agentic-ai-intro/README.md)
+- Project 08: [../08-langgraph-agents-mcp/README.md](../08-langgraph-agents-mcp/README.md)
 - Sample document: `../05-rag-fundamentals/sample_docs/company_notes.txt` is a fictional company written for this exercise. It is not real data.

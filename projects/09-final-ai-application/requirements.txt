@@ -1,1 +1,3 @@
+# python-dotenv 1.1.1 is used here and in projects 05, 06, and 08.
+# Projects 04 and 07 pin 1.2.4. Do not install their requirements into this project's environment.
 python-dotenv==1.1.1

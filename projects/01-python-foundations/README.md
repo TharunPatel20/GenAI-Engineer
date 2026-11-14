@@ -153,7 +153,8 @@ flowchart LR
 | `ModuleNotFoundError: pandas` | Virtual environment not active, or packages not installed | Activate `.venv`, then run `pip install -r requirements.txt` |
 | `PowerShell cannot run scripts` (Windows) | Execution policy blocks activation | Run `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned`, then activate again |
 | Chart window does not appear | Script saves a file and does not open a window | Open `loan_status_chart.png` in this folder |
-| `KeyError: 'Total_Income'` | Step 4 was skipped or run twice | Re-run the script from the top |
+| `KeyError: 'Total_Income'` | Step 4 was skipped | Run Step 4 (or re-run the script from the top) |
+| `KeyError: 'Applicant_Income'` | Step 4 was run twice, so the original columns were already dropped | Re-run the script from the top |
 
 ## Stretch Goals
 

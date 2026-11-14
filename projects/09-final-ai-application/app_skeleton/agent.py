@@ -1,11 +1,10 @@
 """M4: an agent that plans, calls the search tool, reads the result, and answers with evidence.
 
-TODO (M4): write the plan, act, observe loop, stopping at a final answer or MAX_STEPS.
-  Pattern: ../../07-agentic-ai-intro/agent_loop.py (run_agent, build_prompt, parse_reply).
-  Note: project 08 (LangGraph) is not in this repository. Use project 07's plain loop.
+TODO (M4): build a LangGraph graph with a typed state, nodes, and conditional edges, stopping at a final answer or MAX_STEPS.
+  Pattern: ../../08-langgraph-agents-mcp/router_graph.py (StateGraph, router, guardrail, conditional edges).
 
-TODO (M4): register search_documents(question) as a tool, with a docstring the model reads.
-  Pattern: ../../07-agentic-ai-intro/tools.py (TOOLS dict and describe_tools).
+TODO (M4): register search_documents(question) as a tool node, with a docstring the model reads.
+  Pattern: ../../08-langgraph-agents-mcp/router_graph.py (node and tool wiring).
   The tool calls retrieval.search() from M3.
 
 TODO (M4): tell the model to answer only from the retrieved text, to quote the source,
@@ -14,7 +13,7 @@ TODO (M4): tell the model to answer only from the retrieved text, to quote the s
 
 TODO (M4): parse the model's JSON reply safely. A bad reply should become an error
   message for the next step, not a crash.
-  Pattern: ../../07-agentic-ai-intro/agent_loop.py (parse_reply).
+  Pattern: ../../08-langgraph-agents-mcp/router_graph.py (router node output handling).
 
 TODO (M6): log each step (question, tool call, sources, answer) to logs/ for review.
 """

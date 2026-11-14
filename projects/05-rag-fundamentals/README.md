@@ -225,7 +225,7 @@ flowchart LR
 | `No Gemini API key found.` | `.env` is missing, or the key was not pasted | Run `cp .env.example .env` and paste your key after `GEMINI_API_KEY=` |
 | `No index found in faiss_index/` | You ran `ask_rag.py` before `build_index.py` | Run `python build_index.py` first |
 | `ModuleNotFoundError: langchain_community` (or another package) | Virtual environment not active, or packages not installed | Activate `.venv`, then run `pip install -r requirements.txt` |
-| `No matching distribution found for faiss-cpu` | Your Python version has no FAISS wheel | Use Python 3.11 or 3.12, then recreate `.venv` |
+| `No matching distribution found for faiss-cpu` | Your Python version has no FAISS wheel | If FAISS fails to install, check your Python version; 3.11 and 3.12 are the versions this project was checked against. Then recreate `.venv` |
 | `PowerShell cannot run scripts` (Windows) | Execution policy blocks activation | Run `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned`, then activate again |
 | `FileNotFoundError: sample_docs/company_notes.txt` | The file is missing or was moved | Check that `sample_docs/company_notes.txt` exists in this folder |
 | `429` or `RESOURCE_EXHAUSTED` errors | Free-tier rate or quota limit reached | Wait a minute and retry. Run fewer questions in a row |
@@ -235,7 +235,7 @@ flowchart LR
 
 ## Stretch Goals
 
-1. **Chunk-size experiment (the main exercise).** In `build_index.py`, change `CHUNK_SIZE` to 300 and `CHUNK_OVERLAP` to 30. Run `python build_index.py` again, then ask the same three questions with `ask_rag.py`. Record the chunk count, the three chunk previews, and the answers. Then set the size back to 1000 and compare. Which setting gave the cleaner evidence? Which gave more context?
+1. **Chunk-size experiment (the main exercise).** In `build_index.py`, change `CHUNK_SIZE` to 300 and `CHUNK_OVERLAP` to 30. Run `python build_index.py` again, then ask the default question and the missing-answer question (Who is the CEO?) with `ask_rag.py`. Record the chunk count, the three chunk previews, and the answers. Then set the size back to 1000 and compare. Which setting gave the cleaner evidence? Which gave more context?
 2. Ask a question with two parts, such as "What is the 2026 AI budget and what is the main risk?" Does one chunk answer both parts? Try `TOP_K = 5` and see whether the answer improves or the prompt gets noisy.
 3. Add your own short `.txt` file to `sample_docs/`, change `DOC_PATH` to point at it, and rebuild the index. Ask three questions about it.
 4. Add a score threshold. Print a warning when the best score is worse than a value you choose. Before you do this, confirm the score direction in the FAISS docs.

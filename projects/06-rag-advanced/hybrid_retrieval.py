@@ -67,7 +67,7 @@ def reciprocal_rank_fusion(rankings, k=RRF_CONSTANT):
     return sorted(scores, key=scores.get, reverse=True)
 
 
-# Step 3: The retriever. Keyword (BM25), vector (FAISS), and hybrid (RRF) search.
+# Step 4: The retriever. Keyword (BM25), vector (FAISS), and hybrid (RRF) search.
 class HybridRetriever:
     def __init__(self):
         self.chunks = load_chunks()
@@ -104,7 +104,7 @@ class HybridRetriever:
         return [self.chunks[i] for i in ids[:k]]
 
 
-# Step 4 (OPTIONAL): Query rewriting. Ask Gemini for a search-friendly version of the question.
+# Step 5 (OPTIONAL): Query rewriting. Ask Gemini for a search-friendly version of the question.
 REWRITE_PROMPT = (
     "Rewrite the user's question so it works well as a search query over a product FAQ. "
     "Keep every code, number and product name exactly as written. Use plain keywords. "
@@ -118,7 +118,7 @@ def rewrite_query(question):
     return reply.content.strip()
 
 
-# Step 5: PLACEHOLDER reranker. It scores each chunk by how many query words it contains.
+# Step 6: PLACEHOLDER reranker. It scores each chunk by how many query words it contains.
 # A real cross-encoder reranker (a model that reads the query and chunk together) is a stretch exercise.
 def rerank_by_overlap(query, docs):
     query_terms = set(tokenize(query))

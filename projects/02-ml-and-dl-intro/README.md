@@ -28,7 +28,7 @@ By the end you will be able to:
 1. Click the **Open in Colab** badge at the top of this README.
 2. Colab opens `notebook.ipynb`. Run the cells in order, top to bottom.
 3. Step 0 looks for `loan_data.csv` in the cloned repo, or next to the notebook. If it is not there, a file picker opens. Upload `loan_data.csv` from this project folder.
-4. No API key is needed. Step 1 installs the pinned `numpy`, `pandas`, and `scikit-learn` versions from `requirements.txt`. Colab may ask you to restart the runtime. If it does, run the cells again from the top.
+4. No API key is needed. The Setup cell installs the pinned `numpy`, `pandas`, and `scikit-learn` versions from `requirements.txt`. Colab may ask you to restart the runtime. If it does, run the cells again from the top.
 
 ## Setup
 
@@ -144,7 +144,7 @@ The script only prints results. It does not create any files.
 
 ## Expected Output and Checkpoints
 
-Actual output from the script (the first table is abbreviated by Pandas, so you may see `...` between columns):
+Example output (illustrative, not captured from a real run). The first table is abbreviated by Pandas, so you may see `...` between columns:
 
 ```text
 First 5 rows:

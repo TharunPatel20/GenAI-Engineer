@@ -61,7 +61,7 @@ flowchart LR
 - **Forward propagation:** input passes through the network to produce a prediction. [Recap]
 - **Backward propagation (backpropagation):** the error is sent back through the network to update the weights. Weight update: W_new = W_old − α × ∂Loss/∂W, where α is the learning rate. [Recap]
 - **Epoch:** one forward pass plus one backward pass over the training data. [Recap]
-- **Activation function:** a function applied to a neuron's output. Common ones: sigmoid (binary output), softmax (multi-class output), tanh and ReLU (hidden layers). [Recap]
+- **Activation function:** a function applied to a neuron's output. Standard uses [General]: sigmoid for a binary-classification output layer, softmax for a multi-class output layer, tanh and ReLU (Rectified Linear Unit) in hidden layers, and a linear output for regression. Note: the 2026-10-28 recap records different placements (tanh for binary classification, ReLU for regression), and the recap's transcript appears garbled on this point. The standard explanation above is used instead. See [claude-files/recap-2026-10-28.md](claude-files/recap-2026-10-28.md).
 
 **Example.** A logistic regression model on loan data reached about 84% accuracy on the test split. [Recap]
 

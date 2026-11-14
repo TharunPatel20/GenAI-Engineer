@@ -37,18 +37,17 @@ data["Loan_Status"] = data["Loan_Status"].map({"N": 0, "Y": 1})
 # One-hot encoding: Property_Area becomes one 0/1 column per area.
 data = pd.get_dummies(data, columns=["Property_Area"], dtype=int)
 
-# Step 3: Split into inputs (X) and the target (y)
+# Step 3: Split into inputs (X), the target (y), and training (80%) and testing (20%) sets
 X = data.drop(columns=["Loan_Status"])
 y = data["Loan_Status"]
 
-# Step 4: Split into training (80%) and testing (20%) sets
 # The model learns from the training rows. The test rows are held back to check it on unseen data.
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.2, random_state=SEED
 )
 print(f"\nTraining rows: {len(X_train)}   Testing rows: {len(X_test)}")
 
-# Step 5: Train logistic regression and measure accuracy
+# Step 4: Train logistic regression and measure accuracy
 # Accuracy = share of correct predictions (0.80 means 80 out of 100 are right).
 print("\n--- Model 1: Logistic regression ---")
 logreg = LogisticRegression(max_iter=1000)
@@ -56,7 +55,7 @@ logreg.fit(X_train, y_train)
 print(f"Train accuracy: {logreg.score(X_train, y_train):.3f}")
 print(f"Test accuracy:  {logreg.score(X_test, y_test):.3f}")
 
-# Step 6: Show overfitting with a decision tree that has no depth limit
+# Step 5: Show overfitting with a decision tree that has no depth limit
 # The tree keeps splitting until it memorizes the training rows.
 # Expect a high train score and a clearly lower test score.
 print("\n--- Model 2: Decision tree with no depth limit (overfitting demo) ---")
@@ -68,7 +67,7 @@ print(f"Train accuracy: {train_acc:.3f}")
 print(f"Test accuracy:  {test_acc:.3f}")
 print(f"Gap (train minus test): {train_acc - test_acc:.3f}")
 
-# Step 7: Train a small neural network (MLP) and compare
+# Step 6: Train a small neural network (MLP)
 # One hidden layer with 8 neurons. ReLU is the activation function inside the hidden layer.
 # Training repeats forward and backward propagation (epochs) until it stops improving.
 print("\n--- Model 3: Small neural network (MLP, one hidden layer of 8 neurons) ---")
@@ -82,7 +81,7 @@ mlp.fit(X_train, y_train)
 print(f"Train accuracy: {mlp.score(X_train, y_train):.3f}")
 print(f"Test accuracy:  {mlp.score(X_test, y_test):.3f}")
 
-# Step 8: Compare the three models on the test set
+# Step 7: Compare the three models on the test set
 print("\n--- Summary (test accuracy) ---")
 print(f"Logistic regression: {logreg.score(X_test, y_test):.3f}")
 print(f"Decision tree:       {test_acc:.3f}")
