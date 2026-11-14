@@ -10,7 +10,7 @@ This folder turns the course topics that need practice into beginner projects. Y
 - **Gemini API key.** Projects that call Gemini read the key from Colab Secrets (the key icon in the left sidebar; name it `GEMINI_API_KEY`). Never paste a key into a cell, code file, or chat. Get a free key from Google AI Studio.
 - **Running locally (optional).** Use Python 3.10 or newer and a virtual environment inside each project folder (`python -m venv .venv`). Copy `.env.example` to `.env` and add your key there. Never commit `.env`.
 - **Version pins are starting points.** Each `requirements.txt` lists exact versions that were chosen but not yet run end to end. If an install fails, upgrade the one package that fails, then continue. Note the change in your own notes.
-- **Local dependency clash.** Projects 05, 06, and 07 pin slightly different `python-dotenv` versions. This matters only for local installs. Colab avoids it, or use a separate virtual environment for each project.
+- **Local dependency clash.** Projects 04 and 07 pin `python-dotenv` 1.2.4, while projects 05, 06, 08, and 09 pin 1.1.1. This matters only for local installs. Colab avoids it, or use a separate virtual environment for each project.
 
 ## Projects in Order
 
