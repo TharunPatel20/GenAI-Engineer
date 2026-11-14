@@ -25,3 +25,6 @@ loan_status_chart.png
 Thumbs.db
 .vscode/
 .idea/
+
+# Local handoff notes for future sessions (not for GitHub)
+SESSION-NOTES.md
