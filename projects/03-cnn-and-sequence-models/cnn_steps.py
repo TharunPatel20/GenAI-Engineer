@@ -46,6 +46,7 @@ def max_pool2d(feature_map, window=2):
 
 
 # Step 1: A 5x5 grayscale image. Each number is a pixel from 0 (black) to 255 (white).
+# This grid and the filter below are a made-up example for this project, not the course's image or numbers.
 pixels = np.array([
     [10, 40, 200, 220, 30],
     [15, 50, 210, 230, 25],
